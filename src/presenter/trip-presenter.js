@@ -3,7 +3,7 @@ import FiltersView from '../view/filters-view';
 import SortView from '../view/sort-view';
 import EditForm from '../view/edit-form-view';
 import RoutePointView from '../view/route-point-view';
-import { ROUTE_POINTS_COUNT } from '../const/const.js';
+import { ROUTE_POINTS_COUNT } from '../const';
 
 export default class TripPresenter {
   constructor({ tripMainContainer, tripEventsContainer }) {
